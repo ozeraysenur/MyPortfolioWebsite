@@ -1,13 +1,18 @@
 const HireMe = () => {
     return (
-    <div>
-        <nav >
-          <div > 
-            <a href="#skills" className="hover:text-gray-600">Skills</a>
-            <a href="#projects" className="hover:text-gray-600">Projects</a>
-            <a href="#hire" className="hover:text-gray-600">Hire me</a>
-          </div>
-        </nav>
+        <div className="flex gap-6 flex-row p-10">
+            <div ><button className="bg-[#EEEBFF] rounded-full text-[#7B61FF] px-6 py-4 text-bold text-3xl"><span className="block rotate-45">A</span></button></div>
+            <div>
+            <button className="text-gray-500  px-6 py-3 rounded-md hover:border border-[#3730A3] hover:text-[#3730A3] transition text-lg">
+                Hire Me
+            </button>
+            <button className="text-gray-500  px-6 py-3 rounded-md hover:border border-[#3730A3] hover:text-[#3730A3] transition text-lg">
+            Github
+            </button>
+            <button className="text-gray-500  px-6 py-3 rounded-md hover:border border-[#3730A3] hover:text-[#3730A3] transition text-lg">
+                LinkedIn
+            </button>
+            </div>
       </div>
     );
 }
