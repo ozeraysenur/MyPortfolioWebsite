@@ -1,7 +1,7 @@
-const Skills = () => {
+const Projects = () => {
     return (
         <section id="skills" className="py-12 border-t border-gray-200">
-          <h2 className="text-3xl font-bold mb-12 text-[#1F2937]">Skills</h2>
+          <h2 className="text-3xl font-bold mb-12 text-[#1F2937]">Projects</h2>
           
           <div className="flex gap-8">
             
@@ -31,4 +31,4 @@ const Skills = () => {
     );
 }
 
-export default Skills;
+export default Projects;
