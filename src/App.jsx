@@ -6,12 +6,14 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
+import DarkModeToggle from './components/DarkModeToggle';
 
 
 const App = () => {
   return (
     <>
     <header>
+      <DarkModeToggle/>
       <HireMe/>
     </header>
     <main>
