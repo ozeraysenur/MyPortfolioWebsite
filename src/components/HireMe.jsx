@@ -13,7 +13,7 @@ const HireMe = () => {
                 <button className="text-gray-500 px-6 py-3 rounded-md hover:border border-[#3730A3] hover:text-[#3730A3] transition text-lg font-semibold">
                     Projects
                 </button>
-                <button className="text-gray-500 px-6 py-3 rounded-md hover:border border-[#3730A3] hover:text-[#3730A3] transition text-lg">
+                <button className="text-gray-500 px-6 py-3 rounded-md hover:border border-[#3730A3] hover:text-[#3730A3] transition text-lg font-semibold">
                     Hire Me
                 </button>
             </div>
