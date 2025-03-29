@@ -7,11 +7,13 @@ import Projects from './components/Projects';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
 import DarkModeToggle from './components/DarkModeToggle';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 
 const App = () => {
   return (
     <>
+    <LanguageSwitcher/>
     <header>
       <DarkModeToggle/>
       <HireMe/>
