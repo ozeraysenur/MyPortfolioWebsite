@@ -4,15 +4,30 @@ export const data = {
             name: "Ayşe Nur Özer",
             title1: "Creative thinker",
             title2: "Minimalism lover",
-            description:
-                "Hi, I'm Ayşe Nur. I'm a full-stack developer. If you are looking for a Developer who crafts solid and scalable frontend products with great user experiences, let's shake hands!",
+            description: "Hi, I'm Ayşe Nur. I'm a full-stack developer. If you are looking for a Developer who crafts solid and scalable frontend products with great user experiences, let's shake hands!",
             hireMe: "Hire Me",
             github: "Github",
             linkedin: "LinkedIn",
         },
         skills: {
             title: "Skills",
-            list: ["JavaScript", "React", "Node.js", "Python", "SQL"],
+            list: [         
+                {
+                id: 0,
+                name: "JavaScript",
+                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                }, 
+                {
+                id: 1,
+                name: "React",
+                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                },
+                {
+                id: 0,
+                name: "Node.js",
+                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                }
+            ],
         },
         projects: {
             title: "Projects",
@@ -60,7 +75,23 @@ export const data = {
         },
         skills: {
             title: "Yetenekler",
-            list: ["JavaScript", "React", "Node.js", "Python", "SQL"],
+            list: [         
+                {
+                id: 0,
+                name: "JavaScript",
+                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                }, 
+                {
+                id: 1,
+                name: "React",
+                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                },
+                {
+                id: 0,
+                name: "Node.js",
+                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                }
+            ],
         },
         projects: {
             title: "Projeler",
