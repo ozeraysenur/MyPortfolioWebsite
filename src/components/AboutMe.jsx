@@ -10,12 +10,12 @@ const AboutMe = () => {
         <section className="pb-20 flex items-center">
             <div className="flex-1 pr-10">
                 <div className="flex items-center">
-                    <div className="flex-1 border-t-2 border-[#3730A3] mr-3" />
-                    <span className="flex-1 text-[#3730A3] h-5 font-semibold m-2 font-noto text-lg">{data[language].aboutMe.name}</span>
+                    <div className="flex-1 border-t-2 border-primary mr-3" />
+                    <span className="flex-1 text-primary h-5 font-semibold m-2 font-noto text-lg">{data[language].aboutMe.name}</span>
                     <div className="flex-1" />
                 </div>
-                <h1 className="text-left text-6xl font-bold mb-2 mt-12 text-[#1F2937]">{data[language].aboutMe.title1}</h1>
-                <h1 className="text-left text-6xl font-bold mb-12 text-[#1F2937]">{data[language].aboutMe.title2}</h1>
+                <h1 className="text-left text-6xl font-bold mb-2 mt-12 text-title">{data[language].aboutMe.title1}</h1>
+                <h1 className="text-left text-6xl font-bold mb-12 text-title">{data[language].aboutMe.title2}</h1>
 
                 <p className="text-lg mb-8 leading-relaxed max-w-2xl text-gray-500">
                 {data[language].aboutMe.description}
@@ -39,7 +39,7 @@ const AboutMe = () => {
                 <img 
                     src="portfolio_drawing.jpg"
                     alt="Drawing"
-                    className="w-96 h-96 object-cover rounded-lg shadow-lg"
+                    className="w-96 h-96 object-cover rounded-lg shadow-2xl"
                 />
             </div>
         </section>

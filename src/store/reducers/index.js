@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import themeReducer from './themeReducer';
 import langReducer from './langReducer';
+import themeReducer from './themeReducer';
 
 
 export const reducers = combineReducers({

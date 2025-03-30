@@ -13,6 +13,7 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 const App = () => {
   return (
     <>
+    <div className="min-h-screen bg-background text-text dark:bg-background dark:text-text">
     <LanguageSwitcher/>
     <header>
       <DarkModeToggle/>
@@ -27,6 +28,7 @@ const App = () => {
     <footer>
       <Footer/>
     </footer>
+    </div>
     </>
   );
 };

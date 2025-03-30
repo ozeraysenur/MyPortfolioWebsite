@@ -5,8 +5,21 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 120px;
+  padding-right: 120px;
 
+  --primary: #3730A3;
+  --secondary: #4338ca;
+  --background: #ffffff;
+  --text: #757575;
+  --title: #1F2937;
+}
+
+
+:root.dark {
+  --primary: #5C57E8;
+  --secondary: #6D66F0;
+  --background: #121212;
+  --text: #E0E0E0;
+  --title: #F1F1F1;
 }

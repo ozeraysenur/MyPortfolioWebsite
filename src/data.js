@@ -14,17 +14,17 @@ export const data = {
             list: [         
                 {
                 id: 0,
-                name: "JavaScript",
+                name: "Java Script",
                 description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
                 }, 
                 {
                 id: 1,
-                name: "React",
+                name: "React.Js",
                 description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
                 },
                 {
                 id: 0,
-                name: "Node.js",
+                name: "Node.Js",
                 description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
                 }
             ],
@@ -39,7 +39,7 @@ export const data = {
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: ""
+                    img: "project1.JPG"
                 },
                 {
                     id: 1,
@@ -48,7 +48,7 @@ export const data = {
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: ""
+                    img: "project2.1.JPG"
                 },
                 {
                     id: 2,
@@ -57,7 +57,7 @@ export const data = {
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: ""
+                    img: "project3.JPG"
                 }
             ],
         },
@@ -78,17 +78,17 @@ export const data = {
             list: [         
                 {
                 id: 0,
-                name: "JavaScript",
+                name: "Java Script",
                 description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
                 }, 
                 {
                 id: 1,
-                name: "React",
+                name: "React.Js",
                 description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
                 },
                 {
                 id: 0,
-                name: "Node.js",
+                name: "Node.Js",
                 description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
                 }
             ],
@@ -103,7 +103,7 @@ export const data = {
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: ""
+                    img: "project1.JPG"
                 },
                 {
                     id: 1,
@@ -112,7 +112,7 @@ export const data = {
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: ""
+                    img: "project2.1.JPG"
                 },
                 {
                     id: 2,
@@ -121,7 +121,7 @@ export const data = {
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: ""
+                    img: "project3.JPG"
                 }
             ],
         },
