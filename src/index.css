@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  background-color: var(--background);
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +15,7 @@
   --primary: #3730A3;
   --secondary: #4338ca;
   --background: #ffffff;
+  --border:#d1cbef;
   --text: #757575;
   --title: #1F2937;
 }
@@ -20,6 +25,16 @@
   --primary: #5C57E8;
   --secondary: #6D66F0;
   --background: #121212;
+  --border: #3A3A3A;
   --text: #E0E0E0;
   --title: #F1F1F1;
+
+}
+
+html.dark, body.dark {
+  background-color: var(--background);
+}
+
+.Toastify__progress-bar {
+  background: #4338ca !important; /* Progress bar rengi */
 }

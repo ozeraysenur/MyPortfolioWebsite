@@ -1,7 +1,7 @@
 export const data = {
     en: {
         aboutMe: {
-            name: "Ayşe Nur Özer",
+            name: "Ayşe Nur",
             title1: "Creative thinker",
             title2: "Minimalism lover",
             description: "Hi, I'm Ayşe Nur. I'm a full-stack developer. If you are looking for a Developer who crafts solid and scalable frontend products with great user experiences, let's shake hands!",
@@ -61,6 +61,24 @@ export const data = {
                 }
             ],
         },
+        profile: {
+            title: "Profile",
+            list: [
+                {
+                    id:0,
+                    name:"Profile",
+                    birth:"Doğum tarihi",
+                    birthdate:"03.09.1998",
+                    city:"İkamet Şehri",
+                    cityName:"Ankara",
+                    education:"Eğitim Durumu",
+                    educationName:"Muğla Sıtkı Koçman Üniv. Bilgisayar Mühendisliği Lisans, 2025",
+                    role:"Tercih Ettiği Rol",
+                    roleName:"Frontend, UI"
+                },
+                
+            ]
+        }
     },
     tr: {
         aboutMe: {

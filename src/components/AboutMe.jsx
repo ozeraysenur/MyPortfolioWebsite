@@ -4,32 +4,31 @@ import { useSelector } from "react-redux";
 const AboutMe = () => {
 
     const language = useSelector((state) => state.language.language);
-    const darkMode = useSelector((state) => state.theme.darkMode)
 
     return (
         <section className="pb-20 flex items-center">
             <div className="flex-1 pr-10">
                 <div className="flex items-center">
-                    <div className="flex-1 border-t-2 border-primary mr-3" />
+                    <div className="flex-1 border-t-2 border-secondary mr-3" />
                     <span className="flex-1 text-primary h-5 font-semibold m-2 font-noto text-lg">{data[language].aboutMe.name}</span>
                     <div className="flex-1" />
                 </div>
                 <h1 className="text-left text-6xl font-bold mb-2 mt-12 text-title">{data[language].aboutMe.title1}</h1>
                 <h1 className="text-left text-6xl font-bold mb-12 text-title">{data[language].aboutMe.title2}</h1>
 
-                <p className="text-lg mb-8 leading-relaxed max-w-2xl text-gray-500">
+                <p className="text-lg mb-8 leading-relaxed max-w-2xl text-text">
                 {data[language].aboutMe.description}
                 </p>
 
                 <div className="flex flex-wrap gap-4">
-                    <button className="text-[#3730A3] border border-[#3730A3] px-6 py-3 rounded-md hover:bg-[#3730A3] hover:text-white transition text-lg font-medium text-2xl">
+                    <button className="text-primary border border-primary px-6 py-3 rounded-md hover:bg-primary hover:text-white transition text-lg font-medium text-2xl">
                         {data[language].aboutMe.hireMe}
                     </button>
-                    <button className="text-[#3730A3] border border-[#3730A3] px-6 py-3 rounded-md hover:bg-[#3730A3] hover:text-white transition text-lg font-medium flex items-center gap-2">
+                    <button className="text-primary border border-primary px-6 py-3 rounded-md hover:bg-primary hover:text-white transition text-lg font-medium flex items-center gap-2">
                         <FaGithub className="text-2xl" />
                         {data[language].aboutMe.github}
                     </button>
-                    <button className="text-[#3730A3] border border-[#3730A3] px-6 py-3 rounded-md hover:bg-[#3730A3] hover:text-white transition text-lg font-medium flex items-center gap-2">
+                    <button className="text-primary border border-primary px-6 py-3 rounded-md hover:bg-primary hover:text-white transition text-lg font-medium flex items-center gap-2">
                         <FaLinkedin className="text-2xl" />
                         {data[language].aboutMe.linkedin}
                     </button>

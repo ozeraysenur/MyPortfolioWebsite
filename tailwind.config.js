@@ -9,7 +9,15 @@ export default {
     extend: {
       fontFamily: {
           "noto": ["Noto Sans", "sans-serif"]
-      }
+      },
+      colors: {
+        primary: 'var(--primary)',
+        secondary: 'var(--secondary)',
+        background: 'var(--background)',
+        text: 'var(--text)',
+        title: 'var(--title)',
+        border: 'var(--border)',
+      },
   },
   },
   plugins: [],

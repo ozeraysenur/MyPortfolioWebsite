@@ -13,12 +13,12 @@ const LanguageSwitcher = () => {
   return (
     <div>
       {language == "tr" ? 
-      <button onClick={() => dispatch(changeLanguage("en"))} disabled={language === "en"} className="px-3 py-3 text-sm font-semibold text-gray-500">
-        SWITCH TO <span className="text-[#3730A3] ">ENGLISH</span>
+      <button onClick={() => dispatch(changeLanguage("en"))} disabled={language === "en"} className=" text-sm font-bold text-text">
+        SWITCH TO <span className="text-primary">ENGLISH</span>
       </button>
       :
-      <button onClick={() => dispatch(changeLanguage("tr"))} disabled={language === "tr"} className="px-3 py-3 text-sm font-semibold text-gray-500">
-        <span className="text-[#3730A3]">TÜRKÇE</span>'YE GEÇ
+      <button onClick={() => dispatch(changeLanguage("tr"))} disabled={language === "tr"} className=" py-3 text-sm font-bold text-text">
+        <span className="text-primary">TÜRKÇE</span>'YE GEÇ
       </button>}
     </div>
   );
