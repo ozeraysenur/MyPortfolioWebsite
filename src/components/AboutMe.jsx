@@ -38,7 +38,7 @@ const AboutMe = () => {
                 <img 
                     src="portfolio_drawing.jpg"
                     alt="Drawing"
-                    className="w-96 h-96 object-cover rounded-lg shadow-2xl"
+                    className="w-96 h-96 object-cover rounded-lg shadow-2xl dark:shadow-2xl dark:shadow-gray-900"
                 />
             </div>
         </section>

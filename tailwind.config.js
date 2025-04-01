@@ -17,6 +17,7 @@ export default {
         text: 'var(--text)',
         title: 'var(--title)',
         border: 'var(--border)',
+        footerBackground: 'var(--footerBackground)',
       },
   },
   },

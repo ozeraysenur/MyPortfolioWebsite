@@ -10,10 +10,10 @@ const Projects = () => {
           
           <div className="flex">
           {projects.list.map((project) => (
-            <div key={project.id} className="flex-1 ">
+            <div key={project.id} className="flex-1 div-hover-effect p-2">
               <img src={project.img} className="mb-4"/>
               <h3 className="text-3xl font-semibold mb-4 text-secondary">{project.name}</h3>
-              <p className="text-text mr-4">
+              <p className="text-text">
                 {project.description}
               </p>
               <p><strong>Technologies: </strong> {project.technologies.join(", ")}</p>

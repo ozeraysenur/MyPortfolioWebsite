@@ -18,6 +18,7 @@ html, body {
   --border:#d1cbef;
   --text: #757575;
   --title: #1F2937;
+  --footerBackground:#f9f9f9;
 }
 
 
@@ -28,6 +29,7 @@ html, body {
   --border: #3A3A3A;
   --text: #E0E0E0;
   --title: #F1F1F1;
+  --footerBackground:#1c1c1c;
 
 }
 
@@ -36,5 +38,18 @@ html.dark, body.dark {
 }
 
 .Toastify__progress-bar {
-  background: #4338ca !important; /* Progress bar rengi */
+  background: #4338ca !important; 
+}
+
+footer {
+  background-color: var(--footerBackground);
+  width: 100vw;
+  position: relative;
+  left: -120px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.div-hover-effect:hover {
+  @apply bg-footerBackground rounded-lg;
 }

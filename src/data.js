@@ -14,18 +14,18 @@ export const data = {
             list: [         
                 {
                 id: 0,
-                name: "Java Script",
-                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                name: "JavaScript",
+                description: "I effectively utilize modern JavaScript (ES6+) features to write clean, modular, and scalable code. I have experience with asynchronous programming, DOM manipulation, and event-driven architectures.",
                 }, 
                 {
                 id: 1,
                 name: "React.Js",
-                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                description: "Using React, I build dynamic and responsive user interfaces with a component-based architecture. I am experienced in state management using tools like Redux to create efficient and maintainable application flows.",
                 },
                 {
                 id: 0,
                 name: "Node.Js",
-                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                description: "I develop robust RESTful APIs and real-time applications using Node.js. With frameworks like Express, I create scalable server-side logic to power modern web applications.",
                 }
             ],
         },
@@ -63,22 +63,26 @@ export const data = {
         },
         profile: {
             title: "Profile",
-            list: [
-                {
-                    id:0,
-                    name:"Profile",
-                    birth:"Doğum tarihi",
-                    birthdate:"03.09.1998",
-                    city:"İkamet Şehri",
-                    cityName:"Ankara",
-                    education:"Eğitim Durumu",
-                    educationName:"Muğla Sıtkı Koçman Üniv. Bilgisayar Mühendisliği Lisans, 2025",
-                    role:"Tercih Ettiği Rol",
-                    roleName:"Frontend, UI"
-                },
-                
+            profileTitle: "Profile",
+            profileDetails: {
+                name: "Profile",
+                birth: "Date of Birth",
+                birthdate: "03.09.1998",
+                city: "Residence",
+                cityName: "Ankara",
+                education: "Education",
+                educationName: "Muğla Sıtkı Koçman University, BSc in Computer Engineering, 2025",
+                preferredRole: "Preferred Role",
+                roleName: "Frontend Developer, UI Designer"
+            },
+            aboutMeTitle: "About Me",
+            aboutMe: [
+                "I am an aspiring frontend developer with a strong passion for learning and problem-solving. Graduating as an honor student in Computer Engineering, I wanted to expand my skills beyond theory and immerse myself in hands-on development.",
+                "To achieve this, I completed a 3-month intensive frontend development program at Workintech, where I gained practical experience in building interactive and responsive web applications.",
+                "I am excited to continue growing, embracing new challenges, and creating seamless digital experiences."
             ]
         }
+        
     },
     tr: {
         aboutMe: {
@@ -96,18 +100,18 @@ export const data = {
             list: [         
                 {
                 id: 0,
-                name: "Java Script",
-                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                name: "JavaScript",
+                description: "Modern JavaScript (ES6+) özelliklerini etkin bir şekilde kullanarak temiz, modüler ve ölçeklenebilir kodlar yazıyorum. Asenkron programlama, DOM manipülasyonu ve event-driven mimariler konusunda deneyimliyim.",
                 }, 
                 {
                 id: 1,
                 name: "React.Js",
-                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                description: "React kullanarak, bileşen tabanlı mimariyle dinamik ve duyarlı kullanıcı arayüzleri geliştiriyorum. Redux gibi araçlarla durum yönetiminde deneyimliyim ve verimli, sürdürülebilir uygulama akışları oluşturuyorum.",
                 },
                 {
                 id: 0,
                 name: "Node.Js",
-                description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                description: "Node.js kullanarak sağlam RESTful API'ler ve gerçek zamanlı uygulamalar geliştiriyorum. Express gibi framework'lerle ölçeklenebilir sunucu tarafı mantığı oluşturarak modern web uygulamalarını destekliyorum.",
                 }
             ],
         },
@@ -143,6 +147,29 @@ export const data = {
                 }
             ],
         },
+        profile: {
+            title: "Profil",
+            profileTitle: "Profil",
+            profileDetails: {
+                name: "Profil",
+                birth: "Doğum Tarihi",
+                birthdate: "03.09.1998",
+                city: "İkamet Şehri",
+                cityName: "Ankara",
+                education: "Eğitim",
+                educationName: "Muğla Sıtkı Koçman Üniversitesi, Bilgisayar Mühendisliği Lisans, 2025",
+                preferredRole: "Tercih Edilen Rol",
+                roleName: "Frontend Geliştirici, UI Tasarımcı"
+            },
+            aboutMeTitle: "Hakkımda",
+            aboutMe: [
+                "Öğrenmeye ve problem çözmeye büyük bir tutku duyan, hevesli bir frontend geliştiriciyim. Bilgisayar Mühendisliği bölümünden onur öğrencisi olarak mezun olduktan sonra, becerilerimi teorinin ötesine taşımak ve pratik geliştirme dünyasına dalmak istedim.",
+                "Bunu başarmak için, Workintech'te 3 aylık yoğun bir frontend geliştirme programını tamamladım ve etkileşimli, duyarlı web uygulamaları geliştirme konusunda pratik deneyim kazandım.",
+                "Büyümeye, yeni zorlukları kucaklamaya ve kusursuz dijital deneyimler yaratmaya devam etmek için heyecanlıyım."
+            ]
+        },        
+
     },
+    
 };
 
