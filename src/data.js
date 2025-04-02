@@ -86,7 +86,7 @@ export const data = {
     },
     tr: {
         aboutMe: {
-            name: "Ayşe Nur Özer",
+            name: "Ayşe Nur",
             title1: "Yaratıcı Düşünen",
             title2: "Minimalizmi Seven",
             description:
