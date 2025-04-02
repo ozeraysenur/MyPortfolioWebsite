@@ -1,9 +1,12 @@
+import { useSelector } from "react-redux";
+
 const Footer = () => {
+    const language = useSelector((state) => state.language.language);
     return (
         <section>
             <div className="bg-footerBackground py-12">
-                <h1 className="text-5xl font-bold mb-4 text-title">Let's work together on</h1>
-                <h1 className="text-5xl font-bold mb-12 text-title">your next product.</h1>
+                <h1 className="text-5xl font-bold mb-4 text-title">{language === "en" ? "Let's work together on" : "Bir sonraki ürününüz üzerinde"}</h1>
+                <h1 className="text-5xl font-bold mb-12 text-title">{language === "en" ? "your next product." : "birlikte çalışalım."}</h1>
                 
                 <div className="flex justify-between items-start ">
                     

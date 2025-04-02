@@ -12,13 +12,29 @@ const Projects = () => {
           {projects.list.map((project) => (
             <div key={project.id} className="flex-1 div-hover-effect p-2">
               <img src={project.img} className="mb-4"/>
-              <h3 className="text-3xl font-semibold mb-4 text-secondary">{project.name}</h3>
-              <p className="text-text">
+              <h3 className="text-3xl font-semibold mb-4 text-primary">{project.name}</h3>
+              <p className="text-text mb-2">
                 {project.description}
               </p>
-              <p><strong>Technologies: </strong> {project.technologies.join(", ")}</p>
-            <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a> |
-            <a href={project.vercel} target="_blank" rel="noopener noreferrer"> Live Demo</a>
+               {project.technologies.map((technology) => (
+                  <button className="px-3 py-2 rounded-md border border-secondary text-primary transition text-md font-semibold mr-2 mt-2">
+                    {technology}
+                  </button>
+               ))}
+    <div className="flex justify-between mt-4">
+      <a 
+        href={project.github} 
+        className="text-primary text-md transition underline decoration-primary font-semibold"
+      >
+        Github
+      </a>
+      <a 
+        href={project.vercel} 
+        className="text-primary text-md transition underline decoration-primary font-semibold"
+      >
+        {language === "en" ? "View Site" : "Siteyi Ziyaret Et"}
+      </a>
+    </div>
             </div>))}
             
           </div>

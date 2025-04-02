@@ -7,7 +7,6 @@ import Projects from './components/Projects';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
 import DarkModeToggle from './components/DarkModeToggle';
-import LanguageSwitcher from './components/LanguageSwitcher';
 import { ToastContainer, toast } from 'react-toastify';
 
 
@@ -38,9 +37,15 @@ const App = () => {
     </header>
     <main>
       <AboutMe/>
-      <Skills/>
-      <Profile/>
-      <Projects/>
+      <div id="skills">
+        <Skills/>
+      </div>
+      <div id="profile">
+        <Profile/>
+      </div>
+      <div id="projects">
+        <Projects/>
+      </div>  
     </main>
     <footer>
       <Footer/>

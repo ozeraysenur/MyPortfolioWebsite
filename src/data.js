@@ -23,10 +23,10 @@ export const data = {
                 description: "Using React, I build dynamic and responsive user interfaces with a component-based architecture. I am experienced in state management using tools like Redux to create efficient and maintainable application flows.",
                 },
                 {
-                id: 0,
+                id: 2,
                 name: "Node.Js",
                 description: "I develop robust RESTful APIs and real-time applications using Node.js. With frameworks like Express, I create scalable server-side logic to power modern web applications.",
-                }
+                },
             ],
         },
         projects: {
@@ -35,20 +35,20 @@ export const data = {
                 {
                     id: 0,
                     name: "Workintech",
-                    description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler. Available as an NPM package.",
+                    description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler.",
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project1.JPG"
+                    img: "project1-image.PNG"
                 },
                 {
                     id: 1,
                     name: "Random Jokes",
-                    description: "A simple web application that fetches and displays random jokes using an API, built with React and Axios.",
+                    description: "A simple but impressive web application that fetches and displays random jokes using an API, built with React and Axios.",
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project2.1.JPG"
+                    img: "project-2-image.PNG"
                 },
                 {
                     id: 2,
@@ -57,7 +57,7 @@ export const data = {
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project3.JPG"
+                    img: "project-3-image.PNG"
                 }
             ],
         },
@@ -109,7 +109,7 @@ export const data = {
                 description: "React kullanarak, bileşen tabanlı mimariyle dinamik ve duyarlı kullanıcı arayüzleri geliştiriyorum. Redux gibi araçlarla durum yönetiminde deneyimliyim ve verimli, sürdürülebilir uygulama akışları oluşturuyorum.",
                 },
                 {
-                id: 0,
+                id: 2,
                 name: "Node.Js",
                 description: "Node.js kullanarak sağlam RESTful API'ler ve gerçek zamanlı uygulamalar geliştiriyorum. Express gibi framework'lerle ölçeklenebilir sunucu tarafı mantığı oluşturarak modern web uygulamalarını destekliyorum.",
                 }
@@ -121,20 +121,20 @@ export const data = {
                 {
                     id: 0,
                     name: "Workintech",
-                    description: "Kullanıcıların çerezleri yönetmesine olanak tanıyan özelleştirilebilir bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile geliştirildi. NPM paketi olarak mevcut.",
+                    description: "Kullanıcıların çerezleri yönetmesine olanak tanıyan özelleştirilebilir bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile geliştirildi.",
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project1.JPG"
+                    img: "project1-image.PNG"
                 },
                 {
                     id: 1,
                     name: "Random Jokes",
-                    description: "API kullanarak rastgele şakalar getiren ve görüntüleyen basit bir web uygulaması. React ve Axios ile geliştirildi.",
+                    description:  "API kullanarak rastgele şakalar getiren ve görüntüleyen basit ama etkileyici bir web uygulaması. React ve Axios ile geliştirildi.",
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project2.1.JPG"
+                    img: "project-2-image.PNG"
                 },
                 {
                     id: 2,
@@ -143,7 +143,7 @@ export const data = {
                     technologies: ["React", "Redux", "Axios"],
                     github: "https://github.com/ozeraysenur/s8-challenge-pizza",
                     vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project3.JPG"
+                    img: "project-3-image.PNG"
                 }
             ],
         },

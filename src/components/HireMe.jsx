@@ -7,13 +7,17 @@ const HireMe = () => {
                 </button>
             </div>
             <div className="flex gap-4">
-                <button className="text-text px-8 py-3 rounded-md hover:border border-primary hover:text-primary transition text-lg font-semibold">
+                <button className="text-text px-8 py-3 rounded-md hover:border border-primary hover:text-primary transition text-lg font-semibold"
+                onClick={() => document.getElementById("skills").scrollIntoView({ behavior: "smooth" })}>
                     Skills
                 </button>
-                <button className="text-text px-8 py-3 rounded-md hover:border border-primary hover:text-primary transition text-lg font-semibold">
+                <button className="text-text px-8 py-3 rounded-md hover:border border-primary hover:text-primary transition text-lg font-semibold"
+                onClick={() => document.getElementById("projects").scrollIntoView({ behavior: "smooth" })}>
                     Projects
                 </button>
-                <button className="text-text px-8 py-3 rounded-md hover:border border-primary hover:text-primary transition text-lg font-semibold">
+                <button className="text-text px-8 py-3 rounded-md hover:border border-primary hover:text-primary transition text-lg font-semibold"
+                onClick={() => document.getElementById("profile").scrollIntoView({ behavior: "smooth" })}
+                >
                     Hire Me
                 </button>
             </div>

@@ -21,14 +21,21 @@ const AboutMe = () => {
                 </p>
 
                 <div className="flex flex-wrap gap-4">
-                    <button className="text-primary border border-primary px-6 py-3 rounded-md hover:bg-primary hover:text-white transition text-lg font-medium text-2xl">
+                    <button
+                        className="text-primary border border-primary px-6 py-3 rounded-md hover:bg-primary hover:text-white transition text-lg font-medium text-2xl"
+                        onClick={() => window.location.href = "mailto:ozeraysenur24@gmail.com"}
+                    >
                         {data[language].aboutMe.hireMe}
                     </button>
-                    <button className="text-primary border border-primary px-6 py-3 rounded-md hover:bg-primary hover:text-white transition text-lg font-medium flex items-center gap-2">
+                    <button className="text-primary border border-primary px-6 py-3 rounded-md hover:bg-primary hover:text-white transition text-lg font-medium flex items-center gap-2"
+                            onClick={() => window.location.href = "https://github.com/ozeraysenur"}
+                    >
                         <FaGithub className="text-2xl" />
                         {data[language].aboutMe.github}
                     </button>
-                    <button className="text-primary border border-primary px-6 py-3 rounded-md hover:bg-primary hover:text-white transition text-lg font-medium flex items-center gap-2">
+                    <button className="text-primary border border-primary px-6 py-3 rounded-md hover:bg-primary hover:text-white transition text-lg font-medium flex items-center gap-2"
+                            onClick={() => window.location.href = "https://www.linkedin.com/in/ayse-nur-ozer/"}
+                    >
                         <FaLinkedin className="text-2xl" />
                         {data[language].aboutMe.linkedin}
                     </button>
