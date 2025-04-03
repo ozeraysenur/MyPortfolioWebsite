@@ -4,8 +4,6 @@ import LanguageSwitcher from "./LanguageSwitcher";
 
 const DarkModeToggle = () => {
 
-    const language = useSelector((state) => state.language.language);
-    const dispatch = useDispatch();
     const [darkMode, setDarkMode] = useState(() => {
         return localStorage.getItem("theme") === "dark";
     });
@@ -21,25 +19,19 @@ const DarkModeToggle = () => {
     }, [darkMode]);
 
     return (
-        <div className="flex justify-end items-center my-4 px-16 gap-4">
+        <div className="flex justify-end items-center my-4 px-16 gap-4 ">
             <button
                 onClick={() => setDarkMode(!darkMode)}
                 className="w-16 h-8 flex items-center bg-[#EEEBFF] dark:bg-[#3730A3] rounded-full p-1 transition duration-300"
             >
                 <div
-                    className={`w-6 h-6 bg-white dark:bg-[#ffe86e] rounded-full shadow-md transform transition duration-300 ${
-                        darkMode ? "translate-x-8" : "translate-x-0"
-                    }`}
+                    className={"w-6 h-6 bg-white dark:bg-[#ffe86e] rounded-full shadow-md transform transition duration-300"}
                 />
             </button>
             <span className="text-gray-500 dark:text-gray-400 text-sm font-semibold">
                 {darkMode ? "DARK MODE" : "LIGHT MODE"}
             </span>
-    
-            {/* Vertical Line */}
             <div className="w-[1px] h-6 bg-gray-400"></div>
-    
-            {/* Language Switch */}
             <LanguageSwitcher />
         </div>
     );
