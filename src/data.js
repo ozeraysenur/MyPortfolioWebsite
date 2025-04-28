@@ -2,9 +2,9 @@ export const data = {
     en: {
         aboutMe: {
             name: "Ayşe Nur",
-            title1: "Creative thinker",
-            title2: "Minimalism lover",
-            description: "Hi, I'm Ayşe Nur. I'm a full-stack developer. If you are looking for a Developer who crafts solid and scalable frontend products with great user experiences, let's shake hands!",
+            title1: "AI Explorer",
+            title2: "Lifelong Learner",
+            description: "Hi, I'm Ayşe Nur. I'm an aspiring Data Scientist and AI enthusiast. If you're looking for someone passionate about transforming data into meaningful insights and building intelligent systems, let's connect!",
             hireMe: "Hire Me",
             github: "Github",
             linkedin: "LinkedIn",
@@ -13,53 +13,82 @@ export const data = {
             title: "Skills",
             list: [         
                 {
-                id: 0,
-                name: "JavaScript",
-                description: "I effectively utilize modern JavaScript (ES6+) features to write clean, modular, and scalable code. I have experience with asynchronous programming, DOM manipulation, and event-driven architectures.",
+                    id: 0,
+                    name: "Python & Pandas",
+                    description: "I utilize Python and libraries like Pandas and NumPy for data analysis, transformation, and manipulation. I love turning raw data into structured insights."
                 }, 
                 {
-                id: 1,
-                name: "React.Js",
-                description: "Using React, I build dynamic and responsive user interfaces with a component-based architecture. I am experienced in state management using tools like Redux to create efficient and maintainable application flows.",
+                    id: 1,
+                    name: "Machine Learning",
+                    description: "Skilled in using Scikit-learn, TensorFlow, and Keras for model building — from regression and classification to deep learning models and evaluation."
                 },
                 {
-                id: 2,
-                name: "Node.Js",
-                description: "I develop robust RESTful APIs and real-time applications using Node.js. With frameworks like Express, I create scalable server-side logic to power modern web applications.",
-                },
-            ],
+                    id: 2,
+                    name: "Data Visualization",
+                    description: "Proficient in creating compelling visualizations with Matplotlib, Seaborn, and Plotly to effectively communicate data-driven stories."
+                }
+            ]
         },
         projects: {
             title: "Projects",
             list: [
                 {
-                    id: 0,
-                    name: "Workintech",
-                    description: "A customizable cookie plugin allowing users to manage cookies, built with vanilla JS, SCSS, and Parcel Bundler.",
-                    technologies: ["React", "Redux", "Axios"],
-                    github: "https://github.com/ozeraysenur/s8-challenge-pizza",
-                    vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project1-image.PNG"
+                  id: 0,
+                  name: "UNSW-NB15 Anomaly Detection",
+                  description: "A machine learning project focusing on anomaly detection in network traffic data using the UNSW-NB15 dataset.",
+                  technologies: ["Pandas", "Scikit-learn", "Matplotlib"],
+                  github: "https://github.com/ozeraysenur/UNSW-NB15-Anomaly-Detection",
+                  img: "anomaly.jpg",
                 },
                 {
-                    id: 1,
-                    name: "Random Jokes",
-                    description: "A simple but impressive web application that fetches and displays random jokes using an API, built with React and Axios.",
-                    technologies: ["React", "Redux", "Axios"],
-                    github: "https://github.com/ozeraysenur/s8-challenge-pizza",
-                    vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project-2-image.PNG"
+                  id: 1,
+                  name: "University Admission Prediction",
+                  description: "Predicts the likelihood of university admission based on various applicant features using logistic regression.",
+                  technologies: ["Logistic Regression", "Seaborn", "Sklearn"],
+                  github: "https://github.com/ozeraysenur/University-Admission-Predict-with-Logistic-Regression",
+                  img: "university admission.jpg",
                 },
                 {
-                    id: 2,
-                    name: "Journey",
-                    description: "A travel diary web application that allows users to log their journeys with descriptions and images.",
-                    technologies: ["React", "Redux", "Axios"],
-                    github: "https://github.com/ozeraysenur/s8-challenge-pizza",
-                    vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project-3-image.PNG"
-                }
-            ],
+                  id: 2,
+                  name: "Housing Data Visualization",
+                  description: "An interactive data visualization project that explores housing price trends using various plots and graphs.",
+                  technologies: ["Matplotlib", "Seaborn", "Pandas"],
+                  github: "https://github.com/ozeraysenur/HousingDataVisualization",
+                  img: "housing predict.jpg",
+                },
+                {
+                  id: 3,
+                  name: "Exploratory Data Analysis (EDA)",
+                  description: "Comprehensive exploratory analysis performed on a dataset to uncover trends and correlations.",
+                  technologies: ["Pandas", "Numpy", "Matplotlib"],
+                  github: "https://github.com/ozeraysenur/EDA",
+                  img: "eda.jpg",
+                },
+                {
+                  id: 4,
+                  name: "Web Mining Algorithm",
+                  description: "Implementation of web mining techniques to analyze and extract useful patterns from web data.",
+                  technologies: ["Python", "Web Scraping"],
+                  github: "https://github.com/ozeraysenur/WebMiningAlgorithm",
+                  img: "web mining.jpg",
+                },
+                {
+                  id: 5,
+                  name: "Pan-Cancer Interface",
+                  description: "Interactive UI developed for visualizing pan-cancer genomic data and mutation frequencies.",
+                  technologies: ["Shiny", "R", "ggplot2"],
+                  github: "https://github.com/ozeraysenur/PanCancerInterface",
+                  img: "pancancer.jpg",
+                },
+                {
+                  id: 6,
+                  name: "Covid-19 Data Dashboard",
+                  description: "An interactive dashboard that visualizes global COVID-19 data with filtering and summary stats.",
+                  technologies: ["React", "Chart.js", "API"],
+                  github: "https://github.com/ozeraysenur/Covid19DataDashboard",
+                  img: "covid-19.png",
+                },
+              ],
         },
         profile: {
             title: "Profile",
@@ -73,24 +102,22 @@ export const data = {
                 education: "Education",
                 educationName: "Muğla Sıtkı Koçman University, BSc in Computer Engineering, 2025",
                 preferredRole: "Preferred Role",
-                roleName: "Frontend Developer, UI Designer"
+                roleName: "Data Scientist, AI Engineer, Machine Learning Engineer"
             },
             aboutMeTitle: "About Me",
             aboutMe: [
-                "I am an aspiring frontend developer with a strong passion for learning and problem-solving. Graduating as an honor student in Computer Engineering, I wanted to expand my skills beyond theory and immerse myself in hands-on development.",
-                "To achieve this, I completed a 3-month intensive frontend development program at Workintech, where I gained practical experience in building interactive and responsive web applications.",
-                "I am excited to continue growing, embracing new challenges, and creating seamless digital experiences."
+                "As a passionate learner and tech explorer, I've transitioned from full-stack development into the fascinating world of data and AI.",
+                "Over the past year, I've worked on projects spanning NLP, prediction models, and large-scale biomedical data analysis.",
+                "I thrive in environments where creativity meets logic, and I'm excited to keep growing as an AI-focused engineer."
             ]
         }
-        
     },
     tr: {
         aboutMe: {
             name: "Ayşe Nur",
-            title1: "Yaratıcı Düşünen",
-            title2: "Minimalizmi Seven",
-            description:
-                "Merhaba, ben Ayşe Nur. Full-stack geliştiriciyim. Kullanıcı deneyimi harika, sağlam ve ölçeklenebilir frontend ürünleri geliştiren bir yazılımcı arıyorsanız, hadi el sıkışalım!",
+            title1: "Yapay Zeka Kaşifi",
+            title2: "Öğrenmeyi Seven",
+            description: "Merhaba, ben Ayşe Nur. Veri bilimi ve yapay zekaya tutkusu olan bir geliştiriciyim. Veriyi anlamlı içgörülere dönüştürmekten ve akıllı sistemler inşa etmekten heyecan duyuyorum. Bağlantıda kalalım!",
             hireMe: "Beni İşe Al",
             github: "Github",
             linkedin: "LinkedIn",
@@ -99,53 +126,82 @@ export const data = {
             title: "Yetenekler",
             list: [         
                 {
-                id: 0,
-                name: "JavaScript",
-                description: "Modern JavaScript (ES6+) özelliklerini etkin bir şekilde kullanarak temiz, modüler ve ölçeklenebilir kodlar yazıyorum. Asenkron programlama, DOM manipülasyonu ve event-driven mimariler konusunda deneyimliyim.",
+                    id: 0,
+                    name: "Python & Pandas",
+                    description: "Veri analizi, dönüştürme ve manipülasyon için Python ile birlikte Pandas ve NumPy kütüphanelerini etkin şekilde kullanıyorum. Ham veriyi yapısal içgörülere dönüştürmeyi seviyorum."
                 }, 
                 {
-                id: 1,
-                name: "React.Js",
-                description: "React kullanarak, bileşen tabanlı mimariyle dinamik ve duyarlı kullanıcı arayüzleri geliştiriyorum. Redux gibi araçlarla durum yönetiminde deneyimliyim ve verimli, sürdürülebilir uygulama akışları oluşturuyorum.",
+                    id: 1,
+                    name: "Makine Öğrenmesi",
+                    description: "Scikit-learn, TensorFlow ve Keras ile regresyondan sınıflandırmaya, derin öğrenme modellerinden değerlendirmeye kadar model geliştirme konularında yetkinim."
                 },
                 {
-                id: 2,
-                name: "Node.Js",
-                description: "Node.js kullanarak sağlam RESTful API'ler ve gerçek zamanlı uygulamalar geliştiriyorum. Express gibi framework'lerle ölçeklenebilir sunucu tarafı mantığı oluşturarak modern web uygulamalarını destekliyorum.",
+                    id: 2,
+                    name: "Veri Görselleştirme",
+                    description: "Matplotlib, Seaborn ve Plotly ile güçlü ve etkileyici görselleştirmeler oluşturarak verinin hikayesini etkili şekilde iletiyorum."
                 }
-            ],
+            ]
         },
         projects: {
             title: "Projeler",
             list: [
                 {
-                    id: 0,
-                    name: "Workintech",
-                    description: "Kullanıcıların çerezleri yönetmesine olanak tanıyan özelleştirilebilir bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile geliştirildi.",
-                    technologies: ["React", "Redux", "Axios"],
-                    github: "https://github.com/ozeraysenur/s8-challenge-pizza",
-                    vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project1-image.PNG"
+                  id: 0,
+                  name: "UNSW-NB15 Anomali Tespiti",
+                  description: "UNSW-NB15 veri seti ile ağ trafiğinde anomali tespiti yapılan bir makine öğrenmesi projesi.",
+                  technologies: ["Pandas", "Scikit-learn", "Matplotlib"],
+                  github: "https://github.com/ozeraysenur/UNSW-NB15-Anomaly-Detection",
+                  img: "anomaly.jpg",
                 },
                 {
-                    id: 1,
-                    name: "Random Jokes",
-                    description:  "API kullanarak rastgele şakalar getiren ve görüntüleyen basit ama etkileyici bir web uygulaması. React ve Axios ile geliştirildi.",
-                    technologies: ["React", "Redux", "Axios"],
-                    github: "https://github.com/ozeraysenur/s8-challenge-pizza",
-                    vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project-2-image.PNG"
+                  id: 1,
+                  name: "Üniversite Kabul Tahmini",
+                  description: "Başvuru sahibi özelliklerine göre lojistik regresyon kullanarak kabul olasılığını tahmin eden model.",
+                  technologies: ["Logistic Regression", "Seaborn", "Sklearn"],
+                  github: "https://github.com/ozeraysenur/University-Admission-Predict-with-Logistic-Regression",
+                  img: "university admission.jpg",
                 },
                 {
-                    id: 2,
-                    name: "Journey",
-                    description: "Kullanıcıların seyahatlerini açıklamalar ve resimlerle kaydetmelerine olanak tanıyan bir seyahat günlüğü web uygulaması.",
-                    technologies: ["React", "Redux", "Axios"],
-                    github: "https://github.com/ozeraysenur/s8-challenge-pizza",
-                    vercel: "https://s8-challenge-pizza-fawn.vercel.app/",
-                    img: "project-3-image.PNG"
-                }
-            ],
+                  id: 2,
+                  name: "Konut Verisi Görselleştirme",
+                  description: "Konut fiyat eğilimlerini grafikler ve görselleştirmelerle keşfeden etkileşimli bir proje.",
+                  technologies: ["Matplotlib", "Seaborn", "Pandas"],
+                  github: "https://github.com/ozeraysenur/HousingDataVisualization",
+                  img: "housing predict.jpg",
+                },
+                {
+                  id: 3,
+                  name: "Keşifsel Veri Analizi (EDA)",
+                  description: "Veri kümesi üzerinde trend ve ilişkileri ortaya çıkaran kapsamlı analiz çalışması.",
+                  technologies: ["Pandas", "Numpy", "Matplotlib"],
+                  github: "https://github.com/ozeraysenur/EDA",
+                  img: "eda.jpg",
+                },
+                {
+                  id: 4,
+                  name: "Web Madenciliği Algoritması",
+                  description: "Web verileri üzerinde desen çıkarımı ve analiz yapan madencilik teknikleri uygulaması.",
+                  technologies: ["Python", "Web Scraping"],
+                  github: "https://github.com/ozeraysenur/WebMiningAlgorithm",
+                  img: "web mining.jpg",
+                },
+                {
+                  id: 5,
+                  name: "Pan-Kanser Arayüzü",
+                  description: "Pan-kanser genetik verileri ve mutasyon sıklıklarını görselleştiren interaktif kullanıcı arayüzü.",
+                  technologies: ["Shiny", "R", "ggplot2"],
+                  github: "https://github.com/ozeraysenur/PanCancerInterface",
+                  img: "pancancer.jpg",
+                },
+                {
+                  id: 6,
+                  name: "Covid-19 Veri Paneli",
+                  description: "COVID-19 verilerini görselleştiren filtrelenebilir interaktif bir gösterge paneli.",
+                  technologies: ["React", "Chart.js", "API"],
+                  github: "https://github.com/ozeraysenur/Covid19DataDashboard",
+                  img: "covid-19.png",
+                },
+              ],
         },
         profile: {
             title: "Profil",
@@ -159,17 +215,14 @@ export const data = {
                 education: "Eğitim",
                 educationName: "Muğla Sıtkı Koçman Üniversitesi, Bilgisayar Mühendisliği Lisans, 2025",
                 preferredRole: "Tercih Edilen Rol",
-                roleName: "Frontend Geliştirici, UI Tasarımcı"
+                roleName: "Veri Bilimci, Yapay Zeka Mühendisi, Makine Öğrenimi Mühendisi"
             },
             aboutMeTitle: "Hakkımda",
             aboutMe: [
-                "Öğrenmeye ve problem çözmeye büyük bir tutku duyan, hevesli bir frontend geliştiriciyim. Bilgisayar Mühendisliği bölümünden onur öğrencisi olarak mezun olduktan sonra, becerilerimi teorinin ötesine taşımak ve pratik geliştirme dünyasına dalmak istedim.",
-                "Bunu başarmak için, Workintech'te 3 aylık yoğun bir frontend geliştirme programını tamamladım ve etkileşimli, duyarlı web uygulamaları geliştirme konusunda pratik deneyim kazandım.",
-                "Büyümeye, yeni zorlukları kucaklamaya ve kusursuz dijital deneyimler yaratmaya devam etmek için heyecanlıyım."
+                "Tutkulu bir öğrenen ve teknoloji meraklısı olarak, full-stack geliştirmeden veri bilimi ve yapay zekanın büyüleyici dünyasına geçiş yaptım.",
+                "Geçtiğimiz yıl boyunca NLP, tahmin modelleri ve biyomedikal büyük veri analizi gibi çeşitli projeler üzerinde çalıştım.",
+                "Yaratıcılık ve mantığın buluştuğu ortamlarda gelişmeyi seviyorum ve AI odaklı bir mühendis olarak büyümeye devam etmeyi dört gözle bekliyorum."
             ]
-        },        
-
-    },
-    
+        }
+    }
 };
-
