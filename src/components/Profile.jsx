@@ -16,10 +16,6 @@ const Profile = () => {
           </h3>
           <div className="space-y-4 ">
             <p className="text-title">
-              <span className="font-bold ">{profileData.profileDetails.birth}:</span>{" "}
-              {profileData.profileDetails.birthdate}
-            </p>
-            <p className="text-title">
               <span className="font-bold">{profileData.profileDetails.city}:</span>{" "}
               {profileData.profileDetails.cityName}
             </p>

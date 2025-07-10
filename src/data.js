@@ -96,7 +96,6 @@ export const data = {
             profileDetails: {
                 name: "Profile",
                 birth: "Date of Birth",
-                birthdate: "03.09.1998",
                 city: "Residence",
                 cityName: "Ankara",
                 education: "Education",
@@ -209,7 +208,6 @@ export const data = {
             profileDetails: {
                 name: "Profil",
                 birth: "Doğum Tarihi",
-                birthdate: "03.09.1998",
                 city: "İkamet Şehri",
                 cityName: "Ankara",
                 education: "Eğitim",
